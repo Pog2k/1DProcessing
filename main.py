@@ -1,6 +1,6 @@
-from PyQt4 import QtGui,QtCore # Import the PyQt4 module we'll need
+from PyQt4 import QtGui,QtCore
 
-import sys # We need sys so that we can pass argv to QApplication
+import sys
 import random
 import re
 
@@ -10,8 +10,6 @@ import matplotlib.pyplot as plt
 
 from matplotlib.backend_bases import FigureManagerBase, key_press_handler
 
-import boxClass
-import box
 import design
 
 def def_PlotBase(self):
